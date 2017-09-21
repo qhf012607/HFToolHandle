@@ -16,6 +16,7 @@
 		E44B8F201F736FF9007C925D /* HFToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F1F1F736FF9007C925D /* HFToolTests.m */; };
 		E44B8F2B1F736FF9007C925D /* HFToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F2A1F736FF9007C925D /* HFToolUITests.m */; };
 		E44B8F3B1F73710E007C925D /* HFToolMangaer.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F3A1F73710E007C925D /* HFToolMangaer.m */; };
+		E44B8F3E1F738602007C925D /* HFToolText.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F3D1F738602007C925D /* HFToolText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E44B8F2C1F736FF9007C925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E44B8F391F73710E007C925D /* HFToolMangaer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFToolMangaer.h; sourceTree = "<group>"; };
 		E44B8F3A1F73710E007C925D /* HFToolMangaer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolMangaer.m; sourceTree = "<group>"; };
+		E44B8F3C1F738602007C925D /* HFToolText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFToolText.h; sourceTree = "<group>"; };
+		E44B8F3D1F738602007C925D /* HFToolText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 			children = (
 				E44B8F391F73710E007C925D /* HFToolMangaer.h */,
 				E44B8F3A1F73710E007C925D /* HFToolMangaer.m */,
+				E44B8F3C1F738602007C925D /* HFToolText.h */,
+				E44B8F3D1F738602007C925D /* HFToolText.m */,
 			);
 			path = HFToolHandle;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E44B8F0B1F736FF9007C925D /* ViewController.m in Sources */,
+				E44B8F3E1F738602007C925D /* HFToolText.m in Sources */,
 				E44B8F3B1F73710E007C925D /* HFToolMangaer.m in Sources */,
 				E44B8F161F736FF9007C925D /* main.m in Sources */,
 				E44B8F081F736FF9007C925D /* AppDelegate.m in Sources */,
