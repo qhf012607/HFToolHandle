@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E44B8F081F736FF9007C925D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F071F736FF9007C925D /* AppDelegate.m */; };
+		E44B8F0B1F736FF9007C925D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F0A1F736FF9007C925D /* ViewController.m */; };
+		E44B8F0E1F736FF9007C925D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44B8F0C1F736FF9007C925D /* Main.storyboard */; };
+		E44B8F101F736FF9007C925D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44B8F0F1F736FF9007C925D /* Assets.xcassets */; };
+		E44B8F131F736FF9007C925D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44B8F111F736FF9007C925D /* LaunchScreen.storyboard */; };
+		E44B8F161F736FF9007C925D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F151F736FF9007C925D /* main.m */; };
+		E44B8F201F736FF9007C925D /* HFToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F1F1F736FF9007C925D /* HFToolTests.m */; };
+		E44B8F2B1F736FF9007C925D /* HFToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F2A1F736FF9007C925D /* HFToolUITests.m */; };
+		E44B8F3B1F73710E007C925D /* HFToolMangaer.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F3A1F73710E007C925D /* HFToolMangaer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E44B8F1C1F736FF9007C925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E44B8EFB1F736FF9007C925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44B8F021F736FF9007C925D;
+			remoteInfo = HFTool;
+		};
+		E44B8F271F736FF9007C925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E44B8EFB1F736FF9007C925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44B8F021F736FF9007C925D;
+			remoteInfo = HFTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E44B8F031F736FF9007C925D /* HFTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44B8F061F736FF9007C925D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E44B8F071F736FF9007C925D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E44B8F091F736FF9007C925D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E44B8F0A1F736FF9007C925D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E44B8F0D1F736FF9007C925D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E44B8F0F1F736FF9007C925D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E44B8F121F736FF9007C925D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E44B8F141F736FF9007C925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44B8F151F736FF9007C925D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E44B8F1B1F736FF9007C925D /* HFToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44B8F1F1F736FF9007C925D /* HFToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolTests.m; sourceTree = "<group>"; };
+		E44B8F211F736FF9007C925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44B8F261F736FF9007C925D /* HFToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44B8F2A1F736FF9007C925D /* HFToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolUITests.m; sourceTree = "<group>"; };
+		E44B8F2C1F736FF9007C925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44B8F391F73710E007C925D /* HFToolMangaer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFToolMangaer.h; sourceTree = "<group>"; };
+		E44B8F3A1F73710E007C925D /* HFToolMangaer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolMangaer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44B8F001F736FF9007C925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44B8F181F736FF9007C925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44B8F231F736FF9007C925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E44B8EFA1F736FF9007C925D = {
+			isa = PBXGroup;
+			children = (
+				E44B8F381F7370FF007C925D /* HFToolHandle */,
+				E44B8F051F736FF9007C925D /* HFTool */,
+				E44B8F1E1F736FF9007C925D /* HFToolTests */,
+				E44B8F291F736FF9007C925D /* HFToolUITests */,
+				E44B8F041F736FF9007C925D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E44B8F041F736FF9007C925D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44B8F031F736FF9007C925D /* HFTool.app */,
+				E44B8F1B1F736FF9007C925D /* HFToolTests.xctest */,
+				E44B8F261F736FF9007C925D /* HFToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E44B8F051F736FF9007C925D /* HFTool */ = {
+			isa = PBXGroup;
+			children = (
+				E44B8F061F736FF9007C925D /* AppDelegate.h */,
+				E44B8F071F736FF9007C925D /* AppDelegate.m */,
+				E44B8F091F736FF9007C925D /* ViewController.h */,
+				E44B8F0A1F736FF9007C925D /* ViewController.m */,
+				E44B8F0C1F736FF9007C925D /* Main.storyboard */,
+				E44B8F0F1F736FF9007C925D /* Assets.xcassets */,
+				E44B8F111F736FF9007C925D /* LaunchScreen.storyboard */,
+				E44B8F141F736FF9007C925D /* Info.plist */,
+				E44B8F151F736FF9007C925D /* main.m */,
+			);
+			path = HFTool;
+			sourceTree = "<group>";
+		};
+		E44B8F1E1F736FF9007C925D /* HFToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				E44B8F1F1F736FF9007C925D /* HFToolTests.m */,
+				E44B8F211F736FF9007C925D /* Info.plist */,
+			);
+			path = HFToolTests;
+			sourceTree = "<group>";
+		};
+		E44B8F291F736FF9007C925D /* HFToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E44B8F2A1F736FF9007C925D /* HFToolUITests.m */,
+				E44B8F2C1F736FF9007C925D /* Info.plist */,
+			);
+			path = HFToolUITests;
+			sourceTree = "<group>";
+		};
+		E44B8F381F7370FF007C925D /* HFToolHandle */ = {
+			isa = PBXGroup;
+			children = (
+				E44B8F391F73710E007C925D /* HFToolMangaer.h */,
+				E44B8F3A1F73710E007C925D /* HFToolMangaer.m */,
+			);
+			path = HFToolHandle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E44B8F021F736FF9007C925D /* HFTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44B8F2F1F736FF9007C925D /* Build configuration list for PBXNativeTarget "HFTool" */;
+			buildPhases = (
+				E44B8EFF1F736FF9007C925D /* Sources */,
+				E44B8F001F736FF9007C925D /* Frameworks */,
+				E44B8F011F736FF9007C925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFTool;
+			productName = HFTool;
+			productReference = E44B8F031F736FF9007C925D /* HFTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E44B8F1A1F736FF9007C925D /* HFToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44B8F321F736FF9007C925D /* Build configuration list for PBXNativeTarget "HFToolTests" */;
+			buildPhases = (
+				E44B8F171F736FF9007C925D /* Sources */,
+				E44B8F181F736FF9007C925D /* Frameworks */,
+				E44B8F191F736FF9007C925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44B8F1D1F736FF9007C925D /* PBXTargetDependency */,
+			);
+			name = HFToolTests;
+			productName = HFToolTests;
+			productReference = E44B8F1B1F736FF9007C925D /* HFToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E44B8F251F736FF9007C925D /* HFToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44B8F351F736FF9007C925D /* Build configuration list for PBXNativeTarget "HFToolUITests" */;
+			buildPhases = (
+				E44B8F221F736FF9007C925D /* Sources */,
+				E44B8F231F736FF9007C925D /* Frameworks */,
+				E44B8F241F736FF9007C925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44B8F281F736FF9007C925D /* PBXTargetDependency */,
+			);
+			name = HFToolUITests;
+			productName = HFToolUITests;
+			productReference = E44B8F261F736FF9007C925D /* HFToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44B8EFB1F736FF9007C925D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = qhf;
+				TargetAttributes = {
+					E44B8F021F736FF9007C925D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					E44B8F1A1F736FF9007C925D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E44B8F021F736FF9007C925D;
+					};
+					E44B8F251F736FF9007C925D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E44B8F021F736FF9007C925D;
+					};
+				};
+			};
+			buildConfigurationList = E44B8EFE1F736FF9007C925D /* Build configuration list for PBXProject "HFTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E44B8EFA1F736FF9007C925D;
+			productRefGroup = E44B8F041F736FF9007C925D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44B8F021F736FF9007C925D /* HFTool */,
+				E44B8F1A1F736FF9007C925D /* HFToolTests */,
+				E44B8F251F736FF9007C925D /* HFToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44B8F011F736FF9007C925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44B8F131F736FF9007C925D /* LaunchScreen.storyboard in Resources */,
+				E44B8F101F736FF9007C925D /* Assets.xcassets in Resources */,
+				E44B8F0E1F736FF9007C925D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44B8F191F736FF9007C925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44B8F241F736FF9007C925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44B8EFF1F736FF9007C925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44B8F0B1F736FF9007C925D /* ViewController.m in Sources */,
+				E44B8F3B1F73710E007C925D /* HFToolMangaer.m in Sources */,
+				E44B8F161F736FF9007C925D /* main.m in Sources */,
+				E44B8F081F736FF9007C925D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44B8F171F736FF9007C925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44B8F201F736FF9007C925D /* HFToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44B8F221F736FF9007C925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44B8F2B1F736FF9007C925D /* HFToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E44B8F1D1F736FF9007C925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44B8F021F736FF9007C925D /* HFTool */;
+			targetProxy = E44B8F1C1F736FF9007C925D /* PBXContainerItemProxy */;
+		};
+		E44B8F281F736FF9007C925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44B8F021F736FF9007C925D /* HFTool */;
+			targetProxy = E44B8F271F736FF9007C925D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E44B8F0C1F736FF9007C925D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44B8F0D1F736FF9007C925D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E44B8F111F736FF9007C925D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44B8F121F736FF9007C925D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E44B8F2D1F736FF9007C925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E44B8F2E1F736FF9007C925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E44B8F301F736FF9007C925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HFTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ff.HFTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E44B8F311F736FF9007C925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HFTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ff.HFTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E44B8F331F736FF9007C925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HFToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ff.HFToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HFTool.app/HFTool";
+			};
+			name = Debug;
+		};
+		E44B8F341F736FF9007C925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HFToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ff.HFToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HFTool.app/HFTool";
+			};
+			name = Release;
+		};
+		E44B8F361F736FF9007C925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HFToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ff.HFToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HFTool;
+			};
+			name = Debug;
+		};
+		E44B8F371F736FF9007C925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HFToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ff.HFToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HFTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44B8EFE1F736FF9007C925D /* Build configuration list for PBXProject "HFTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44B8F2D1F736FF9007C925D /* Debug */,
+				E44B8F2E1F736FF9007C925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44B8F2F1F736FF9007C925D /* Build configuration list for PBXNativeTarget "HFTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44B8F301F736FF9007C925D /* Debug */,
+				E44B8F311F736FF9007C925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44B8F321F736FF9007C925D /* Build configuration list for PBXNativeTarget "HFToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44B8F331F736FF9007C925D /* Debug */,
+				E44B8F341F736FF9007C925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44B8F351F736FF9007C925D /* Build configuration list for PBXNativeTarget "HFToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44B8F361F736FF9007C925D /* Debug */,
+				E44B8F371F736FF9007C925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44B8EFB1F736FF9007C925D /* Project object */;
+}
