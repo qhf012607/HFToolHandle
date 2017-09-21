@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 s.name         = "HFToolHandle"
 s.version      = "0.0.1"
 s.summary      = "use to do something"
-s.homepage     = "https://github.com/qhf012607/Example"
+s.homepage     = "https://github.com/qhf012607/HFToolHandle"
 s.license      = "MIT"
 
 s.author             = { "qhf012607" => "963983088@qq.com" }
