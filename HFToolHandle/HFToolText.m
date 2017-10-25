@@ -10,7 +10,7 @@
 enum stringType{
     stringTypeone,
 };
-static NSString *string = @"d";
+static NSString *string = @"s";
 @implementation HFToolText
 
 @end

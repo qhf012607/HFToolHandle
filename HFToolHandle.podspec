@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "HFToolHandle"
-s.version      = "0.0.3"
+s.version      = "0.0.4"
 s.summary      = "use to do something"
 s.homepage     = "https://github.com/qhf012607/HFToolHandle"
 s.license      = "MIT"
