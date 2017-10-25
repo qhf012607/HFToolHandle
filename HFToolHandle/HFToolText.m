@@ -7,7 +7,10 @@
 //
 
 #import "HFToolText.h"
-
+enum stringType{
+    stringTypeone,
+};
+static NSString *string = @"d";
 @implementation HFToolText
 
 @end
