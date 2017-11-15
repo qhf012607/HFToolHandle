@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "CustomIpm.h"
 @interface ViewController ()
-
+@property(strong,nonatomic)UITableView *table;
+@property(strong,nonatomic)CustomIpm *imp;
 @end
 
 @implementation ViewController
@@ -17,12 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    @"f";
-
-    
-    @"d";
-
+    self.table = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    [self.view addSubview:self.table];
+    self.imp = [[CustomIpm alloc]init];
+    self.imp.dataArray = @[@[@1,@2,@3],@[@4,@5,@6],@[@7,@8,@9]];
+    self.table.delegate = self.imp;
+    self.table.dataSource = self.imp;
+    [self.imp handleData:^(id model, NSIndexPath *path, UITableView *tableView, NSInteger tagCustome) {
+        
+    } scrollBlock:^(CGFloat offset, UIScrollView *table) {
+        
+    }];
 }
 
 

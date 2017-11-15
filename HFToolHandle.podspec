@@ -9,7 +9,7 @@ s.license      = "MIT"
 s.author             = { "qhf012607" => "963983088@qq.com" }
 s.platform     = :ios, "7.0"
 
-s.source       = { :git => "https://github.com/qhf012607/HFToolHandle.git", :tag => "0.0.2" }
+s.source       = { :git => "https://github.com/qhf012607/HFToolHandle.git", :tag => "0.0.4" }
 
 
 s.source_files  = "HFToolHandle/**/*.{h,m}"

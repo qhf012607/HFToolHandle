@@ -17,6 +17,11 @@
 		E44B8F2B1F736FF9007C925D /* HFToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F2A1F736FF9007C925D /* HFToolUITests.m */; };
 		E44B8F3B1F73710E007C925D /* HFToolMangaer.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F3A1F73710E007C925D /* HFToolMangaer.m */; };
 		E44B8F3E1F738602007C925D /* HFToolText.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F3D1F738602007C925D /* HFToolText.m */; };
+		E45F80F61FBBE48A00E13433 /* HomeShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F80F51FBBE48A00E13433 /* HomeShopCell.m */; };
+		E4DE49891FBBD3120093265F /* UITableViewCell+CellFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE49881FBBD3120093265F /* UITableViewCell+CellFunction.m */; };
+		E4FDEB1C1FBBEDAF007A8BB1 /* CustomIpm.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FDEB1B1FBBEDAF007A8BB1 /* CustomIpm.m */; };
+		E4FDEB1D1FBBEE15007A8BB1 /* MainTableImp.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F80F21FBBD85B00E13433 /* MainTableImp.m */; };
+		E676128F0CEE1A5CD33C0219 /* libPods-HFTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF6C2BA199DE077F7B11E82 /* libPods-HFTool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EF6C2BA199DE077F7B11E82 /* libPods-HFTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HFTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACE703B59A607F4D3004D50 /* Pods-HFTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFTool/Pods-HFTool.debug.xcconfig"; sourceTree = "<group>"; };
+		879991173BF2877F7E098D6B /* Pods-HFTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFTool/Pods-HFTool.release.xcconfig"; sourceTree = "<group>"; };
 		E44B8F031F736FF9007C925D /* HFTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44B8F061F736FF9007C925D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E44B8F071F736FF9007C925D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +65,14 @@
 		E44B8F3A1F73710E007C925D /* HFToolMangaer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolMangaer.m; sourceTree = "<group>"; };
 		E44B8F3C1F738602007C925D /* HFToolText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFToolText.h; sourceTree = "<group>"; };
 		E44B8F3D1F738602007C925D /* HFToolText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolText.m; sourceTree = "<group>"; };
+		E45F80F11FBBD85B00E13433 /* MainTableImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableImp.h; sourceTree = "<group>"; };
+		E45F80F21FBBD85B00E13433 /* MainTableImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableImp.m; sourceTree = "<group>"; };
+		E45F80F41FBBE48A00E13433 /* HomeShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeShopCell.h; sourceTree = "<group>"; };
+		E45F80F51FBBE48A00E13433 /* HomeShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeShopCell.m; sourceTree = "<group>"; };
+		E4DE49871FBBD3120093265F /* UITableViewCell+CellFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CellFunction.h"; sourceTree = "<group>"; };
+		E4DE49881FBBD3120093265F /* UITableViewCell+CellFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CellFunction.m"; sourceTree = "<group>"; };
+		E4FDEB1A1FBBEDAF007A8BB1 /* CustomIpm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomIpm.h; sourceTree = "<group>"; };
+		E4FDEB1B1FBBEDAF007A8BB1 /* CustomIpm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomIpm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E676128F0CEE1A5CD33C0219 /* libPods-HFTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0744981B778A20CF6E3833F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EF6C2BA199DE077F7B11E82 /* libPods-HFTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6A79C3F7763320A0E8A18C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE703B59A607F4D3004D50 /* Pods-HFTool.debug.xcconfig */,
+				879991173BF2877F7E098D6B /* Pods-HFTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E44B8EFA1F736FF9007C925D = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +126,8 @@
 				E44B8F1E1F736FF9007C925D /* HFToolTests */,
 				E44B8F291F736FF9007C925D /* HFToolUITests */,
 				E44B8F041F736FF9007C925D /* Products */,
+				C6A79C3F7763320A0E8A18C4 /* Pods */,
+				0744981B778A20CF6E3833F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,8 +144,12 @@
 		E44B8F051F736FF9007C925D /* HFTool */ = {
 			isa = PBXGroup;
 			children = (
+				E4FDEB1A1FBBEDAF007A8BB1 /* CustomIpm.h */,
+				E4FDEB1B1FBBEDAF007A8BB1 /* CustomIpm.m */,
 				E44B8F061F736FF9007C925D /* AppDelegate.h */,
 				E44B8F071F736FF9007C925D /* AppDelegate.m */,
+				E45F80F41FBBE48A00E13433 /* HomeShopCell.h */,
+				E45F80F51FBBE48A00E13433 /* HomeShopCell.m */,
 				E44B8F091F736FF9007C925D /* ViewController.h */,
 				E44B8F0A1F736FF9007C925D /* ViewController.m */,
 				E44B8F0C1F736FF9007C925D /* Main.storyboard */,
@@ -142,12 +182,40 @@
 		E44B8F381F7370FF007C925D /* HFToolHandle */ = {
 			isa = PBXGroup;
 			children = (
+				E4DE497E1FBBCFC60093265F /* HFTableTool */,
 				E44B8F391F73710E007C925D /* HFToolMangaer.h */,
 				E44B8F3A1F73710E007C925D /* HFToolMangaer.m */,
 				E44B8F3C1F738602007C925D /* HFToolText.h */,
 				E44B8F3D1F738602007C925D /* HFToolText.m */,
 			);
 			path = HFToolHandle;
+			sourceTree = "<group>";
+		};
+		E4DE497E1FBBCFC60093265F /* HFTableTool */ = {
+			isa = PBXGroup;
+			children = (
+				E4DE49801FBBD0360093265F /* View */,
+				E4DE497F1FBBD0310093265F /* imp */,
+			);
+			path = HFTableTool;
+			sourceTree = "<group>";
+		};
+		E4DE497F1FBBD0310093265F /* imp */ = {
+			isa = PBXGroup;
+			children = (
+				E45F80F11FBBD85B00E13433 /* MainTableImp.h */,
+				E45F80F21FBBD85B00E13433 /* MainTableImp.m */,
+			);
+			path = imp;
+			sourceTree = "<group>";
+		};
+		E4DE49801FBBD0360093265F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4DE49871FBBD3120093265F /* UITableViewCell+CellFunction.h */,
+				E4DE49881FBBD3120093265F /* UITableViewCell+CellFunction.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E44B8F2F1F736FF9007C925D /* Build configuration list for PBXNativeTarget "HFTool" */;
 			buildPhases = (
+				756F38A963AFAFF40A626042 /* [CP] Check Pods Manifest.lock */,
 				E44B8EFF1F736FF9007C925D /* Sources */,
 				E44B8F001F736FF9007C925D /* Frameworks */,
 				E44B8F011F736FF9007C925D /* Resources */,
+				703F403A2D42DAEB1DEB24C8 /* [CP] Embed Pods Frameworks */,
+				3F02E274063345BD99EDA5F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,16 +349,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F02E274063345BD99EDA5F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HFTool/Pods-HFTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		703F403A2D42DAEB1DEB24C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HFTool/Pods-HFTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756F38A963AFAFF40A626042 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HFTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E44B8EFF1F736FF9007C925D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FDEB1D1FBBEE15007A8BB1 /* MainTableImp.m in Sources */,
+				E4DE49891FBBD3120093265F /* UITableViewCell+CellFunction.m in Sources */,
 				E44B8F0B1F736FF9007C925D /* ViewController.m in Sources */,
 				E44B8F3E1F738602007C925D /* HFToolText.m in Sources */,
 				E44B8F3B1F73710E007C925D /* HFToolMangaer.m in Sources */,
+				E45F80F61FBBE48A00E13433 /* HomeShopCell.m in Sources */,
 				E44B8F161F736FF9007C925D /* main.m in Sources */,
 				E44B8F081F736FF9007C925D /* AppDelegate.m in Sources */,
+				E4FDEB1C1FBBEDAF007A8BB1 /* CustomIpm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,12 +574,18 @@
 		};
 		E44B8F301F736FF9007C925D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACE703B59A607F4D3004D50 /* Pods-HFTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A7SW32G4M;
 				INFOPLIST_FILE = HFTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ff.HFTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,12 +594,18 @@
 		};
 		E44B8F311F736FF9007C925D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879991173BF2877F7E098D6B /* Pods-HFTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A7SW32G4M;
 				INFOPLIST_FILE = HFTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ff.HFTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
