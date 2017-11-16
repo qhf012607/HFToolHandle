@@ -12,16 +12,8 @@ s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/qhf012607/HFToolHandle.git", :tag => "0.1.4" }
 
 
-s.source_files  = "HFToolHandle/*.{h,m}"
+s.source_files  = 'HFToolHandle/*.{h,m}',''HFToolHandle/imp/**/*.{h,m,mm,c}',''HFToolHandle/View/**/*.{h,m,mm,c}'
 s.framework  = "UIKit"
-
-s.subspec 'imp' do |imp|
-imp.source_files = 'HFToolHandle/imp/**/*'
-end
-
-s.subspec 'View' do |View|
-imp.source_files = 'HFToolHandle/imp/**/*'
-end
 
 end
 
