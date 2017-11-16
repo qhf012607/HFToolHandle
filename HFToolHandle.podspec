@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "HFToolHandle"
-s.version      = "0.1.0"
+s.version      = "0.1.1"
 s.summary      = "use to do something"
 s.homepage     = "https://github.com/qhf012607/HFToolHandle"
 s.license      = "MIT"
@@ -9,10 +9,10 @@ s.license      = "MIT"
 s.author             = { "qhf012607" => "963983088@qq.com" }
 s.platform     = :ios, "7.0"
 
-s.source       = { :git => "https://github.com/qhf012607/HFToolHandle.git", :tag => "0.1.0" }
+s.source       = { :git => "https://github.com/qhf012607/HFToolHandle.git", :tag => "0.1.1" }
 
 
-s.source_files  = "HFToolHandle/**/*.{h,m}"
+s.source_files  = "HFToolHandle/*"
 s.framework  = "UIKit"
 end
 
