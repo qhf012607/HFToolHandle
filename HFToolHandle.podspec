@@ -12,7 +12,7 @@ s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/qhf012607/HFToolHandle.git", :tag => "0.1.5" }
 
 
-s.source_files  = 'HFToolHandle/**/*.{h,m}'
+s.source_files  = 'HFToolHandle/**/*.{h,m}','HFToolHandle/HFTableTool/imp/**/*.{h,m,mm,c}',''HFToolHandle/HFTableTool/View/**/*.{h,m,mm,c}'
 s.framework  = "UIKit"
 
 end
