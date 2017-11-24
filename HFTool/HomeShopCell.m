@@ -27,7 +27,7 @@
 @implementation HomeShopCell
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        self.backgroundColor = [UIColor redColor];
+        self.backgroundColor = [UIColor lightGrayColor];
         [self initUI];
         [self masLayout];
         self.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -95,7 +95,11 @@
 }
 
 - (void)inputDataObject:(id)object{
-    
+    self.labDistance.text = @"haha";
+    self.labPrice.text = @"32.0";
+    self.labCity.text = @"上海";
+    self.labCategory.text = @"快餐";
+    self.labName.text = @"你的名字";
 }
 
 - (void)butClick:(UIButton*)sender{

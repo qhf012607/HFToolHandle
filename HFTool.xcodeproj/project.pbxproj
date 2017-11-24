@@ -15,8 +15,6 @@
 		E44B8F161F736FF9007C925D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F151F736FF9007C925D /* main.m */; };
 		E44B8F201F736FF9007C925D /* HFToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F1F1F736FF9007C925D /* HFToolTests.m */; };
 		E44B8F2B1F736FF9007C925D /* HFToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F2A1F736FF9007C925D /* HFToolUITests.m */; };
-		E44B8F3B1F73710E007C925D /* HFToolMangaer.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F3A1F73710E007C925D /* HFToolMangaer.m */; };
-		E44B8F3E1F738602007C925D /* HFToolText.m in Sources */ = {isa = PBXBuildFile; fileRef = E44B8F3D1F738602007C925D /* HFToolText.m */; };
 		E45F80F61FBBE48A00E13433 /* HomeShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E45F80F51FBBE48A00E13433 /* HomeShopCell.m */; };
 		E4DE49891FBBD3120093265F /* UITableViewCell+CellFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DE49881FBBD3120093265F /* UITableViewCell+CellFunction.m */; };
 		E4FDEB1C1FBBEDAF007A8BB1 /* CustomIpm.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FDEB1B1FBBEDAF007A8BB1 /* CustomIpm.m */; };
@@ -61,10 +59,6 @@
 		E44B8F261F736FF9007C925D /* HFToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44B8F2A1F736FF9007C925D /* HFToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolUITests.m; sourceTree = "<group>"; };
 		E44B8F2C1F736FF9007C925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E44B8F391F73710E007C925D /* HFToolMangaer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFToolMangaer.h; sourceTree = "<group>"; };
-		E44B8F3A1F73710E007C925D /* HFToolMangaer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolMangaer.m; sourceTree = "<group>"; };
-		E44B8F3C1F738602007C925D /* HFToolText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFToolText.h; sourceTree = "<group>"; };
-		E44B8F3D1F738602007C925D /* HFToolText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFToolText.m; sourceTree = "<group>"; };
 		E45F80F11FBBD85B00E13433 /* MainTableImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableImp.h; sourceTree = "<group>"; };
 		E45F80F21FBBD85B00E13433 /* MainTableImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableImp.m; sourceTree = "<group>"; };
 		E45F80F41FBBE48A00E13433 /* HomeShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeShopCell.h; sourceTree = "<group>"; };
@@ -183,10 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				E4DE497E1FBBCFC60093265F /* HFTableTool */,
-				E44B8F391F73710E007C925D /* HFToolMangaer.h */,
-				E44B8F3A1F73710E007C925D /* HFToolMangaer.m */,
-				E44B8F3C1F738602007C925D /* HFToolText.h */,
-				E44B8F3D1F738602007C925D /* HFToolText.m */,
 			);
 			path = HFToolHandle;
 			sourceTree = "<group>";
@@ -408,8 +398,6 @@
 				E4FDEB1D1FBBEE15007A8BB1 /* MainTableImp.m in Sources */,
 				E4DE49891FBBD3120093265F /* UITableViewCell+CellFunction.m in Sources */,
 				E44B8F0B1F736FF9007C925D /* ViewController.m in Sources */,
-				E44B8F3E1F738602007C925D /* HFToolText.m in Sources */,
-				E44B8F3B1F73710E007C925D /* HFToolMangaer.m in Sources */,
 				E45F80F61FBBE48A00E13433 /* HomeShopCell.m in Sources */,
 				E44B8F161F736FF9007C925D /* main.m in Sources */,
 				E44B8F081F736FF9007C925D /* AppDelegate.m in Sources */,

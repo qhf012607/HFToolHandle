@@ -29,6 +29,11 @@
     } scrollBlock:^(CGFloat offset, UIScrollView *table) {
         
     }];
+    [self.imp handleData:^(id model, NSIndexPath *path, UITableView *tableView, NSInteger tagCustome) {
+        
+    } scrollBlock:^(CGFloat offset, UIScrollView *table) {
+        
+    }];
 }
 
 
