@@ -15,3 +15,9 @@ return 92;
 
 
 4、设置imp 数据源 dataArray (必须为二维数组)
+
+
+支持cocoapods安装 😆
+podfile方法:
+HFToolHandle 低版本pod可能要update一下。
+ 
