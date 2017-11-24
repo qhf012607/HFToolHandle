@@ -19,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.table = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    
     [self.view addSubview:self.table];
     self.imp = [[CustomIpm alloc]init];
     self.imp.dataArray = @[@[@1,@2,@3],@[@4,@5,@6],@[@7,@8,@9]];
